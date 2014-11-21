@@ -1,0 +1,20 @@
+{
+  "name": "pants-arch",
+  "version": "0.0.1",
+  "authors": [
+    "Ganesha <reekoheek@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "project.sublime-*",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pants": "xinix-technology/pants#~0.1.5"
+  }
+}

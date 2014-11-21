@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pants TableField</title>
+
+    <link rel="import" href="../pants/pants.html">
+</head>
+<body>
+
+<pants-element name="pants-arch">
+    <template>
+
+    </template>
+    <script type="text/javascript">
+    (function(root) {
+        "use strict";
+
+        pants('pants-arch', {
+                // default attributes
+            })
+            .on('created', function() {
+                // on component created
+            })
+            .on('attached', function() {
+                // on component attached
+            })
+            .on('detached', function() {
+                // on component detached
+            })
+            .event('click #something', function(evt, detail, sender) {
+                evt.preventDefault();
+                // on click to #something
+            })
+            .register();
+    })(this);
+    </script>
+</pants-element>
+</body>
+</html>
